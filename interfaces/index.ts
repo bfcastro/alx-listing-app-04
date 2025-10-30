@@ -14,12 +14,16 @@ export interface PropertyProps {
   id: number;
   name: string;
   image: string;
+  price: number;
   rating: number;
+  discount?: number;
   address: {
     city: string;
     country: string;
   };
   category: string[];
-  price: number;
-  discount?: number;
+  description?: string;
+  amenities?: string[];   
+  images?: string[];     
 }
+
